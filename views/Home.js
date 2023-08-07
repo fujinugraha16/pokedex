@@ -93,8 +93,10 @@ const Home = ({ pokemons, currentType }) => {
               {pokemons[pokemonIndex].types.map(type => (
                 <BadgeTransparent
                   key={type}
-                  type={type}
-                />
+                  type={currentType}
+                >
+                  {type}
+                </BadgeTransparent>
               ))}
             </div>
 

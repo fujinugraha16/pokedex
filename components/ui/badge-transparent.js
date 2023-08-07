@@ -1,5 +1,6 @@
 const BadgeTransparent = ({
   type,
+  children,
   ...props
 }) => {
   switch (type) {
@@ -9,7 +10,7 @@ const BadgeTransparent = ({
           {...props}
           className="bg-white bg-opacity-20 px-2 py-1 rounded-lg w-fit uppercase text-normal-darker text-xs font-semibold"
         >
-          {type}
+          {children}
         </div>
       )
     case "fighting":
@@ -18,7 +19,7 @@ const BadgeTransparent = ({
           {...props}
           className="bg-white bg-opacity-20 px-2 py-1 rounded-lg w-fit uppercase text-fighting-darker text-xs font-semibold"
         >
-          {type}
+          {children}
         </div>
       )
     case "flying":
@@ -27,7 +28,7 @@ const BadgeTransparent = ({
           {...props}
           className="bg-white bg-opacity-20 px-2 py-1 rounded-lg w-fit uppercase text-flying-darker text-xs font-semibold"
         >
-          {type}
+          {children}
         </div>
       )
     case "poison":
@@ -36,7 +37,7 @@ const BadgeTransparent = ({
           {...props}
           className="bg-white bg-opacity-20 px-2 py-1 rounded-lg w-fit uppercase text-poison-darker text-xs font-semibold"
         >
-          {type}
+          {children}
         </div>
       )
     case "ground":
@@ -45,7 +46,7 @@ const BadgeTransparent = ({
           {...props}
           className="bg-white bg-opacity-20 px-2 py-1 rounded-lg w-fit uppercase text-ground-darker text-xs font-semibold"
         >
-          {type}
+          {children}
         </div>
       )
     case "rock":
@@ -54,7 +55,7 @@ const BadgeTransparent = ({
           {...props}
           className="bg-white bg-opacity-20 px-2 py-1 rounded-lg w-fit uppercase text-rock-darker text-xs font-semibold"
         >
-          {type}
+          {children}
         </div>
       )
     case "bug":
@@ -63,7 +64,7 @@ const BadgeTransparent = ({
           {...props}
           className="bg-white bg-opacity-20 px-2 py-1 rounded-lg w-fit uppercase text-bug-darker text-xs font-semibold"
         >
-          {type}
+          {children}
         </div>
       )
     case "ghost":
@@ -72,7 +73,7 @@ const BadgeTransparent = ({
           {...props}
           className="bg-white bg-opacity-20 px-2 py-1 rounded-lg w-fit uppercase text-ghost-darker text-xs font-semibold"
         >
-          {type}
+          {children}
         </div>
       )
     case "steel":
@@ -81,7 +82,7 @@ const BadgeTransparent = ({
           {...props}
           className="bg-white bg-opacity-20 px-2 py-1 rounded-lg w-fit uppercase text-steel-darker text-xs font-semibold"
         >
-          {type}
+          {children}
         </div>
       )
     case "fire":
@@ -90,7 +91,7 @@ const BadgeTransparent = ({
           {...props}
           className="bg-white bg-opacity-20 px-2 py-1 rounded-lg w-fit uppercase text-fire-darker text-xs font-semibold"
         >
-          {type}
+          {children}
         </div>
       )
     case "water":
@@ -99,7 +100,7 @@ const BadgeTransparent = ({
           {...props}
           className="bg-white bg-opacity-20 px-2 py-1 rounded-lg w-fit uppercase text-water-darker text-xs font-semibold"
         >
-          {type}
+          {children}
         </div>
       )
     case "grass":
@@ -108,7 +109,7 @@ const BadgeTransparent = ({
           {...props}
           className="bg-white bg-opacity-20 px-2 py-1 rounded-lg w-fit uppercase text-grass-darker text-xs font-semibold"
         >
-          {type}
+          {children}
         </div>
       )
     case "electric":
@@ -117,7 +118,7 @@ const BadgeTransparent = ({
           {...props}
           className="bg-white bg-opacity-20 px-2 py-1 rounded-lg w-fit uppercase text-electric-darker text-xs font-semibold"
         >
-          {type}
+          {children}
         </div>
       )
     case "psychic":
@@ -126,7 +127,7 @@ const BadgeTransparent = ({
           {...props}
           className="bg-white bg-opacity-20 px-2 py-1 rounded-lg w-fit uppercase text-psychic-darker text-xs font-semibold"
         >
-          {type}
+          {children}
         </div>
       )
     case "ice":
@@ -135,7 +136,7 @@ const BadgeTransparent = ({
           {...props}
           className="bg-white bg-opacity-20 px-2 py-1 rounded-lg w-fit uppercase text-ice-darker text-xs font-semibold"
         >
-          {type}
+          {children}
         </div>
       )
     case "dragon":
@@ -144,7 +145,7 @@ const BadgeTransparent = ({
           {...props}
           className="bg-white bg-opacity-20 px-2 py-1 rounded-lg w-fit uppercase text-dragon-darker text-xs font-semibold"
         >
-          {type}
+          {children}
         </div>
       )
     case "dark":
@@ -153,7 +154,7 @@ const BadgeTransparent = ({
           {...props}
           className="bg-white bg-opacity-20 px-2 py-1 rounded-lg w-fit uppercase text-dark-darker text-xs font-semibold"
         >
-          {type}
+          {children}
         </div>
       )
     case "fairy":
@@ -162,7 +163,7 @@ const BadgeTransparent = ({
           {...props}
           className="bg-white bg-opacity-20 px-2 py-1 rounded-lg w-fit uppercase text-fairy-darker text-xs font-semibold"
         >
-          {type}
+          {children}
         </div>
       )
     default:

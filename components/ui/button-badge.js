@@ -6,7 +6,7 @@ const ButtonBadge = ({
   switch (type) {
     case "normal":
       return (
-        <span
+        <button
           {...props}
           className={isActive 
             ? "cursor-pointer inline-flex items-center rounded-lg bg-normal px-2 py-1 text-xs font-medium text-white capitalize ring-1 ring-inset ring-normal"
@@ -14,11 +14,11 @@ const ButtonBadge = ({
           }
         >
           {type}
-        </span>
+        </button>
       )
     case "fighting":
       return (
-        <span
+        <button
           {...props}
           className={isActive 
             ? "cursor-pointer inline-flex items-center rounded-lg bg-fighting px-2 py-1 text-xs font-medium text-white capitalize ring-1 ring-inset ring-fighting"
@@ -26,11 +26,11 @@ const ButtonBadge = ({
           }
         >
           {type}
-        </span>
+        </button>
       )
     case "flying":
       return (
-        <span
+        <button
           {...props}
           className={isActive 
             ? "cursor-pointer inline-flex items-center rounded-lg bg-flying px-2 py-1 text-xs font-medium text-white capitalize ring-1 ring-inset ring-flying"
@@ -38,11 +38,11 @@ const ButtonBadge = ({
           }
         >
           {type}
-        </span>
+        </button>
       )
     case "poison":
       return (
-        <span
+        <button
           {...props}
           className={isActive 
             ? "cursor-pointer inline-flex items-center rounded-lg bg-poison px-2 py-1 text-xs font-medium text-white capitalize ring-1 ring-inset ring-poison"
@@ -50,11 +50,11 @@ const ButtonBadge = ({
           }
         >
           {type}
-        </span>
+        </button>
       )
     case "ground":
       return (
-        <span
+        <button
           {...props}
           className={isActive 
             ? "cursor-pointer inline-flex items-center rounded-lg bg-ground px-2 py-1 text-xs font-medium text-white capitalize ring-1 ring-inset ring-ground"
@@ -62,11 +62,11 @@ const ButtonBadge = ({
           }
         >
           {type}
-        </span>
+        </button>
       )
     case "rock":
       return (
-        <span
+        <button
           {...props}
           className={isActive 
             ? "cursor-pointer inline-flex items-center rounded-lg bg-rock px-2 py-1 text-xs font-medium text-white capitalize ring-1 ring-inset ring-rock"
@@ -74,11 +74,11 @@ const ButtonBadge = ({
           }
         >
           {type}
-        </span>
+        </button>
       )
     case "bug":
       return (
-        <span
+        <button
           {...props}
           className={isActive 
             ? "cursor-pointer inline-flex items-center rounded-lg bg-bug px-2 py-1 text-xs font-medium text-white capitalize ring-1 ring-inset ring-bug"
@@ -86,11 +86,11 @@ const ButtonBadge = ({
           }
         >
           {type}
-        </span>
+        </button>
       )
     case "ghost":
       return (
-        <span
+        <button
           {...props}
           className={isActive 
             ? "cursor-pointer inline-flex items-center rounded-lg bg-ghost px-2 py-1 text-xs font-medium text-white capitalize ring-1 ring-inset ring-ghost"
@@ -98,11 +98,11 @@ const ButtonBadge = ({
           }
         >
           {type}
-        </span>
+        </button>
       )
     case "steel":
       return (
-        <span
+        <button
           {...props}
           className={isActive 
             ? "cursor-pointer inline-flex items-center rounded-lg bg-steel px-2 py-1 text-xs font-medium text-white capitalize ring-1 ring-inset ring-steel"
@@ -110,11 +110,11 @@ const ButtonBadge = ({
           }
         >
           {type}
-        </span>
+        </button>
       )
     case "fire":
       return (
-        <span
+        <button
           {...props}
           className={isActive 
             ? "cursor-pointer inline-flex items-center rounded-lg bg-fire px-2 py-1 text-xs font-medium text-white capitalize ring-1 ring-inset ring-fire"
@@ -122,11 +122,11 @@ const ButtonBadge = ({
           }
         >
           {type}
-        </span>
+        </button>
       )
     case "water":
       return (
-        <span
+        <button
           {...props}
           className={isActive 
             ? "cursor-pointer inline-flex items-center rounded-lg bg-water px-2 py-1 text-xs font-medium text-white capitalize ring-1 ring-inset ring-water"
@@ -134,11 +134,11 @@ const ButtonBadge = ({
           }
         >
           {type}
-        </span>
+        </button>
       )
     case "grass":
       return (
-        <span
+        <button
           {...props}
           className={isActive 
             ? "cursor-pointer inline-flex items-center rounded-lg bg-grass px-2 py-1 text-xs font-medium text-white capitalize ring-1 ring-inset ring-grass"
@@ -146,11 +146,11 @@ const ButtonBadge = ({
           }
         >
           {type}
-        </span>
+        </button>
       )
     case "electric":
       return (
-        <span
+        <button
           {...props}
           className={isActive 
             ? "cursor-pointer inline-flex items-center rounded-lg bg-electric px-2 py-1 text-xs font-medium text-white capitalize ring-1 ring-inset ring-electric"
@@ -158,11 +158,11 @@ const ButtonBadge = ({
           }
         >
           {type}
-        </span>
+        </button>
       )
     case "psychic":
       return (
-        <span
+        <button
           {...props}
           className={isActive 
             ? "cursor-pointer inline-flex items-center rounded-lg bg-psychic px-2 py-1 text-xs font-medium text-white capitalize ring-1 ring-inset ring-psychic"
@@ -170,11 +170,11 @@ const ButtonBadge = ({
           }
         >
           {type}
-        </span>
+        </button>
       )
     case "ice":
       return (
-        <span
+        <button
           {...props}
           className={isActive 
             ? "cursor-pointer inline-flex items-center rounded-lg bg-ice px-2 py-1 text-xs font-medium text-white capitalize ring-1 ring-inset ring-ice"
@@ -182,11 +182,11 @@ const ButtonBadge = ({
           }
         >
           {type}
-        </span>
+        </button>
       )
     case "dragon":
       return (
-        <span
+        <button
           {...props}
           className={isActive 
             ? "cursor-pointer inline-flex items-center rounded-lg bg-dragon px-2 py-1 text-xs font-medium text-white capitalize ring-1 ring-inset ring-dragon"
@@ -194,11 +194,11 @@ const ButtonBadge = ({
           }
         >
           {type}
-        </span>
+        </button>
       )
     case "dark":
       return (
-        <span
+        <button
           {...props}
           className={isActive 
             ? "cursor-pointer inline-flex items-center rounded-lg bg-dark px-2 py-1 text-xs font-medium text-white capitalize ring-1 ring-inset ring-dark"
@@ -206,11 +206,11 @@ const ButtonBadge = ({
           }
         >
           {type}
-        </span>
+        </button>
       )
     case "fairy":
       return (
-        <span
+        <button
           {...props}
           className={isActive 
             ? "cursor-pointer inline-flex items-center rounded-lg bg-fairy px-2 py-1 text-xs font-medium text-white capitalize ring-1 ring-inset ring-fairy"
@@ -218,7 +218,7 @@ const ButtonBadge = ({
           }
         >
           {type}
-        </span>
+        </button>
       )
     default:
       break;
