@@ -52,7 +52,7 @@ const getPokemonsByType = async (id) => {
           habitat,
           shape,
           eggGroups,
-          damageClass: move_damage_class.name || "-",
+          damageClass: move_damage_class ? move_damage_class.name : "-",
           strongAgaints,
           weakAgaints,
         })
