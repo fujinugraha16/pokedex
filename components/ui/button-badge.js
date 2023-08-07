@@ -70,7 +70,7 @@ const ButtonBadge = ({
           {...props}
           className={isActive 
             ? "cursor-pointer inline-flex items-center rounded-lg bg-rock px-2 py-1 text-xs font-medium text-white capitalize ring-1 ring-inset ring-rock"
-            : "cursor-pointer inline-flex items-center rounded-lg bg-white px-2 py-1 text-xs font-medium text-rock capitalize ring-1 ring-inset ring-rock hover:bg-ground hover:text-white"
+            : "cursor-pointer inline-flex items-center rounded-lg bg-white px-2 py-1 text-xs font-medium text-rock capitalize ring-1 ring-inset ring-rock hover:bg-rock hover:text-white"
           }
         >
           {type}

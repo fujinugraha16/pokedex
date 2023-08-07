@@ -71,7 +71,7 @@ const Home = ({ pokemons, currentType }) => {
         open={showDetailPokemonModal}
         toggle={() => setShowDetailPokemonModal(prevState => !prevState)}
       >
-        <ModalBackground type={currentType}>
+        <ModalBackground type={pokemons[pokemonIndex].types[0]}>
           <div className="text-white text-opacity-20 font-extrabold">
             <h4 className="text-3xl">
               #{pokemons[pokemonIndex].id}
@@ -93,7 +93,7 @@ const Home = ({ pokemons, currentType }) => {
               {pokemons[pokemonIndex].types.map(type => (
                 <BadgeTransparent
                   key={type}
-                  type={currentType}
+                  type={pokemons[pokemonIndex].types[0]}
                 >
                   {type}
                 </BadgeTransparent>
