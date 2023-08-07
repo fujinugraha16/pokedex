@@ -16,12 +16,37 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* Track width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #F5FBFB;
+  border-radius: 18px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2e3157; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #F5FBFB; 
+}
+
+#pokemon-background-image {
+  background-image: url('../public/pokeball.png');
+}
+
+#pokemon-card-image {
+  background-image: url('../public/pokeball.png');
+  background-size: 100%;
 }
